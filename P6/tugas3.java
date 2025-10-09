@@ -27,7 +27,7 @@ public class tugas3 {
             System.out.println("Akses ditolak");
         }
 
-        Raja26.close();
+       
 
     }
 }
