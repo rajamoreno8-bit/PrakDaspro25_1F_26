@@ -166,7 +166,7 @@ public class CM_Siakad_26 {
             status = "Tidak Lulus";
         }
         System.out.println("Status Semester : " + status);
-        
+        Raja26.close();
 
         
 
