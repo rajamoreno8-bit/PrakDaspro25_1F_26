@@ -16,7 +16,6 @@ public class Square26 {
             System.out.println(); 
         }
         
-        Raja26.close();
     }
 }
 
