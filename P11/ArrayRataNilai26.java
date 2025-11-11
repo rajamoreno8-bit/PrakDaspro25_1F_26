@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ArrayRataNilai26 {
     public static void main(String[] args) {
-        Scanner Akbar21 = new Scanner(System.in);
+        Scanner Raja26 = new Scanner(System.in);
 
         int [ ] nilaiMhs = new int[10];
         double total = 0;
@@ -12,7 +12,7 @@ public class ArrayRataNilai26 {
 
         for (int i = 0; i < nilaiMhs.length; i++) {
             System.out.print("Masukkan nilai mahasiswa ke-"+(i+1)+" : ");
-            nilaiMhs[i] = Akbar21.nextInt();
+            nilaiMhs[i] = Raja26.nextInt();
         }
 
         for (int i = 0; i < nilaiMhs.length; i++) {
