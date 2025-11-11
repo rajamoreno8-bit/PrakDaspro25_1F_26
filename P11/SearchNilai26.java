@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class SearchNilai26 {
     public static void main(String[] args) {
-        Scanner Akbar21 = new Scanner(System.in);
+        Scanner Raja26 = new Scanner(System.in);
 
         int [] arrNilai = {80, 85, 79, 96, 90, 82, 86};
         int key = 90;
