@@ -144,9 +144,9 @@ public class CM_Siakad_26 {
         System.out.println("--------------------------------------------------------------------------");
         System.out.println("Mata Kuliah                SKS   Nilai   Huruf   Setara");
         System.out.println("--------------------------------------------------------------------------");
-        System.out.println("Pancasila                  2     " + Pancasila26 + "      " + nilaiAkhirP26 + "       " + nilaiSetaraP26);
+        System.out.println("Pancasila                  2     " + Pancasila26 + "   " + nilaiAkhirP26 + "       " + nilaiSetaraP26);
         System.out.println("Dasar Pemrograman          3     " + Daspro26 + "      " + nilaiAkhirD26 + "       " + nilaiSetaraD26);
-        System.out.println("Bahasa Inggris             2     " + Bing26 + "      " + nilaiAkhirB26 + "       " + nilaiSetaraB26);
+        System.out.println("Bahasa Inggris             2     " + Bing26 + "        " + nilaiAkhirB26 + "       " + nilaiSetaraB26);
         System.out.println("--------------------------------------------------------------------------");
 
         double totalSKS = 2 + 3 + 2;
