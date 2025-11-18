@@ -25,6 +25,14 @@ public class BioskopWithScanner26 {
                     System.out.print("Masukkan Kolom: ");
                     kolom = Raja26.nextInt();
                     Raja26.nextLine();
+                    if (baris < 1 || baris > 4 || kolom > 2) {
+                        System.out.println("Nomor Baris / Kolom Tidak Tersedia");
+                        continue;
+                    }
+                    if (penonton[baris-3][kolom-1]!=null){
+                        System.out.println("Kursi Sudah Terisi!! Silahkan Memilih Kursi Yang Lain");
+                        continue;
+                    }
 
                     penonton[baris-1][kolom-1] = nama;
 
