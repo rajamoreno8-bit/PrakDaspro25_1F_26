@@ -8,18 +8,18 @@ public class BioskopWithScanner26 {
 
         String[][] penonton = new String[4][2];
         String nama, next;
-        int baris, kolom;
+        int baris26, kolom;
 
         while (true) {
             System.out.print("Masukkan nama: ");
             nama = Raja26.nextLine();
             System.out.print("Masukkan Baris: ");
-            baris = Raja26.nextInt();
+            baris26 = Raja26.nextInt();
             System.out.print("Masukkan Kolom: ");
             kolom = Raja26.nextInt();
             Raja26.nextLine();
 
-            penonton[baris-1][kolom-1] = nama;
+            penonton[baris26-1][kolom-1] = nama;
 
             System.out.print("Input Penonton Lainnya? (y/n): ");
             next = Raja26.nextLine();
