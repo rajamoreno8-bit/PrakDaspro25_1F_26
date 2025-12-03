@@ -1,7 +1,9 @@
 public class Kafe26 {
 
     public static void main(String[] args) {
+
         Menu("Andi", true, "DISKON 50%");
+        Menu("Budi", true, "DISKON 30%");
     }
 
     public static void Menu(String namaPelanggan, boolean isMember, String kodePromo) {
@@ -29,5 +31,6 @@ public class Kafe26 {
         System.out.println("6. Mie Goreng  - Rp 18.000");
         System.out.println("===========================");
         System.out.println("Silahkan Pilih Menu Yang Anda Inginkan.");
+        System.out.println();
     }
 }
